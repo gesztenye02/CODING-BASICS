@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>my portfolio</title>
+</head>
+
+<body>
+ <header>
+        <h1>Garami Eszter</h1>
+        <p>about me text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae molestie est, ac pretium libero. Nulla quis fringilla orci. In tincidunt sem tortor, id ornare erat accumsan quis. Suspendisse faucibus elit sit amet tempus eleifend. Nullam porta elit vitae massa faucibus rutrum. Phasellus enim turpis, ullamcorper sit amet sem sit amet, tincidunt euismod turpis. </p>
+        <nav>
+            
+             
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            
+        </nav>
+        
+    </header>
+    <main>
+      <section id="portfolio">
+            <h2 style="text-align:center;">PORTFOLIO</h2>
+            <ul>
+                <li>
+                    <h3>ILLUSTRATION</h3>
+                    <p>A complete portfolio of my digital artworks</p>
+                </li>
+                <li>
+                    <h3>SKETCHBOOK</h3>
+                    <p>An e-commerce website with a user-friendly interface and secure payment gateway.</p>
+                </li>
+               
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email at <a
+                    href="mailto:garami.eszter2@gmail.com">garami.eszter2@gmail.com</a> or connect with me on
+                <a href="https://ester3st.carrd.co">my carrd site</a>.
+            </p>
+        </section>
+    </main>
+     <footer>
+        <p>&copy; 2025 Garami Eszter. All rights reserved.</p>
+</body>
+
+</html>
