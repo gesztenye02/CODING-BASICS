@@ -1,8 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
 <title>my portfolio</title>
 </head>
-
+<style>
+body {background-color: #F0F2F2;}
+h1   {color: #0F9696; font-family: Monaco}
+p    {color: #2C4C4C;}
+h2	{color: #0F9696;}
+</style>
 <body>
  <header>
         <h1>Garami Eszter</h1>
@@ -12,6 +19,7 @@
              
                 <a href="#portfolio">Portfolio</a>
                 <a href="#contact">Contact</a>
+                <a href="#other">Other Projects</a>
             
         </nav>
         
@@ -22,21 +30,25 @@
             <ul>
                 <li>
                     <h3>ILLUSTRATION</h3>
-                    <p>A complete portfolio of my digital artworks</p>
+                    <p>A complete portfolio of my digital artwork</p>
                 </li>
                 <li>
                     <h3>SKETCHBOOK</h3>
-                    <p>An e-commerce website with a user-friendly interface and secure payment gateway.</p>
+                    <p>sketchbook scans and traditional art</p>
                 </li>
                
             </ul>
         </section>
+        
         <section id="contact">
             <h2>Contact</h2>
             <p>If you'd like to get in touch, feel free to reach out via email at <a
                     href="mailto:garami.eszter2@gmail.com">garami.eszter2@gmail.com</a> or connect with me on
                 <a href="https://ester3st.carrd.co">my carrd site</a>.
             </p>
+        </section>
+        <section id="other">
+        <h2>Other Projects</h2>
         </section>
     </main>
      <footer>
