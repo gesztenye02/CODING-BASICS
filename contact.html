@@ -11,6 +11,22 @@
     src: url(Jacquard12-Regular.woff2);
   }
 
+  .card::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Hide scrollbar for Firefox */
+.card {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for Internet Explorer (if you care) */
+.card {
+  -ms-overflow-style: none;
+}
+
+
   body {
     margin: 0;
     padding: 0;
@@ -27,23 +43,30 @@
     
   }
 
+  ul.tos{
+     display: inline-block;
+  text-align: left;
+  }
   
   h1:hover {
     transform: translateY(-5px);
   } 
   
   .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 1000px;
-    width: 90%;
-    border: 1px solid #ccc;
-    padding: 40px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    background-color: white;
-    text-align: center;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  width: 90%;
+  max-height: 80vh;      /* limits the height */
+  overflow-y: auto;      /* enables vertical scrolling */
+  border: 1px solid #ccc;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: white;
+  text-align: center;
+}
+
 
   .content {
     display: flex;
@@ -59,6 +82,7 @@
     min-width: 300px;
   }
 
+ 
   .left-section h1 {
     font-family: myFont, 'Yuji Syuku', serif;
     font-size: 60px;
@@ -118,6 +142,13 @@
   }
 
   .right-section h1 {
+    font-family: myFont, 'Yuji Syuku', serif;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+h1 {
     font-family: myFont, 'Yuji Syuku', serif;
     font-size: 60px;
     margin-bottom: 10px;
@@ -202,19 +233,49 @@
           <img src="linkedin.gif" alt="email" class="btn-icon">
           <div>linkedin</div>
         </a>
+
+        
       </div>
+      
+      
+
+      </p>
     </div>
 
     <div class="right-section">
       <h1>commission info</h1>
       <p>
-        COMMISSION STATUS: 1 SLOT OPEN <br><br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consectetur porta aliquet. <br><br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla, enim id porta sodales, felis enim feugiat mi, in congue nunc sem et diam. Phasellus interdum blandit elit quis eleifend. Sed cursus elit eget posuere fermentum.
-      </p>
+       <strong>  COMMISSION STATUS: 1 SLOT OPEN <br><br>
+       Full color character art</strong> 	 <br><br>
+Portrait	$25 <br>
+Half-body	$35 <br>
+Full-body	$45<br><br>
+
+Decorative background (patterns, floral motifs etc.) +$5
+<br><br>Complex background (scenery, interiors etc.) +$15
+<br><br><strong> Other options:</strong> <br> <br>Additional characters: <br>
++$10 for portrait<br>
++$20 for half and full body
+<br><br>
     </div>
   </div>
+<div class="termofservice"><h1>terms of service</h1><br><br>
+<p> 
+        Payment in USD via paypal invoice.<br><br>
 
+    I will start the commission after payment is sent<br><br>
+
+    No full refunds available once the commission has been started. <br><br>Partial refunds and modifications/changes to the artwork during <br>the working process can be arranged.
+
+   <br><br> I will not draw NSFW or any extreme violence<br><br>
+
+    The commissioned piece cannot be used for commercial purposes,<br><br>
+
+    It can be used for recreational purposes, used as a profile pic, <br>posted to social media with credit etc.<br><br>
+
+    I retain full copyright over my artwork<br><br>
+
+    I retain the right to reject or refund a commission for any reason.</p></div>
   <div class="back-button">
     <a href="home.html" class="btn">
       <img src="back.gif" alt="Back icon" class="btn-icon2">
